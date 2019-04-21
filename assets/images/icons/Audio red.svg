@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Audio red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,13 C16.1045695,13 17,13.8954305 17,15 C17,15.5 16.82,15.94 16.53,16.29 L19.7,25 L17.57,25 L15,17.93 L12.43,25 L10.3,25 L13.47,16.29 C13.18,15.94 13,15.5 13,15 C13,13.8954305 13.8954305,13 15,13 Z M15,11 C12.790861,11 11,12.790861 11,15 C11,15.5 11.1,16 11.28,16.46 L10.4,18.86 C9.53,17.81 9,16.47 9,15 C9,11.6862915 11.6862915,9 15,9 C16.5912989,9 18.1174224,9.63214104 19.2426407,10.7573593 C20.367859,11.8825776 21,13.4087011 21,15 C21,16.47 20.47,17.81 19.6,18.86 L18.72,16.46 C18.9,16 19,15.5 19,15 C19,12.790861 17.209139,11 15,11 Z M15,7 C10.581722,7 7,10.581722 7,15 C7,17.36 8,19.5 9.64,20.94 L8.92,22.94 C6.54,21.11 5,18.23 5,15 C5,9.4771525 9.4771525,5 15,5 C17.6521649,5 20.195704,6.0535684 22.0710678,7.92893219 C23.9464316,9.80429597 25,12.3478351 25,15 C25,18.23 23.46,21.11 21.08,22.94 L20.36,20.94 C22,19.5 23,17.36 23,15 C23,10.581722 19.418278,7 15,7 Z" id="path-1"></path>
+        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Audio-red" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shape-Copy-" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#EC9F89" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

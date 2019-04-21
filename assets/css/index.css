@@ -1,0 +1,7 @@
+/*Dependecies and partials*/
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import "main.css";
+@import "header.css";
+
+/*Pages*/
+@import "home.css";

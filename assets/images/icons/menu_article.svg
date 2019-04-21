@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artical icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artical-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M21,19 L32,19 L32,21 L21,21 M21,15 L32,15 L32,17 L21,17 M21,23 L32,23 L32,25 L21,25 M33.9090909,7 L6.09090909,7 C4.38384714,7 3,8.36948194 3,10.0588235 L3,29.9411765 C3,31.6305181 4.38384714,33 6.09090909,33 L33.9090909,33 C35.6161529,33 37,31.6305181 37,29.9411765 L37,10.0588235 C37,8.36948194 35.6161529,7 33.9090909,7 M34,30 L20,30 L20,10 L34,10" id="artical-icon" fill="#B8E986" fill-rule="nonzero"></path>
+    </g>
+</svg>

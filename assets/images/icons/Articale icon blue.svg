@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Articale icon blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Articale-icon-blue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.5882353,9.05882353 L17.0588235,9.05882353 L17.0588235,10.2352941 L10.5882353,10.2352941 M10.5882353,6.70588235 L17.0588235,6.70588235 L17.0588235,7.88235294 L10.5882353,7.88235294 M10.5882353,11.4117647 L17.0588235,11.4117647 L17.0588235,12.5882353 L10.5882353,12.5882353 M18.1818182,2 L1.81818182,2 C0.814027728,2 2.01858732e-16,2.80557761 0,3.79930796 L0,15.4948097 C2.01858732e-16,16.48854 0.814027728,17.2941176 1.81818182,17.2941176 L18.1818182,17.2941176 C19.1859723,17.2941176 20,16.48854 20,15.4948097 L20,3.79930796 C20,2.80557761 19.1859723,2 18.1818182,2 M18.2352941,15.5294118 L10,15.5294118 L10,3.76470588 L18.2352941,3.76470588" id="artical-icon" fill="#20B2B2" fill-rule="nonzero"></path>
+    </g>
+</svg>

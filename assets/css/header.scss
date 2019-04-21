@@ -1,0 +1,279 @@
+.top-nav{
+    z-index:9999;
+    min-height:40px;
+    background:#1B1D22;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    font-size:15px;
+    padding-left:20px;
+    box-shadow: 3px 0px 16px black;
+
+    .line{
+        border-left: 1px solid #4C4E52;
+        height: 38px;
+        width:10px;
+        margin-left:10px;
+    }
+
+    .right{
+        flex:1;
+        display:flex;
+        align-self: center;
+
+        .ham{
+            align-self: center;
+            flex:1;
+            cursor: pointer;
+        }
+        .page{
+            flex:2;
+            display:flex;
+            align-items: center;
+        }
+        
+    }
+
+    .middle{
+        flex:3;
+        display:flex;
+        align-self: center;
+        .search{
+            display: flex;
+            align-items: center;
+            input[type="text"]{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                outline: none;
+                border: none;
+                border: 1px solid #4C4E52;
+                background: transparent;
+                margin-right: 5px;
+                margin-left: 5px;
+                transition:all .5s;
+                color: white;
+                padding: 5px 10px;
+                font-size: 14px;
+            }
+
+            input[type="text"]:focus{
+                width: 180px;
+                border-radius: 70px;
+            }
+           
+        }
+        .section{
+            display:flex;
+            align-items: center;
+            .cont{
+                cursor: pointer;
+                display:flex;
+                align-items: center;
+                width: 70px;
+                justify-content: space-around;
+                margin-right:20px;
+        
+                .icon img{
+                    transition: transform .3s;
+                    
+                }
+                .icon img:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    .left{
+        flex:1;
+        display:flex;
+        align-self: center;
+        align-items: center;
+        justify-content: flex-end;
+
+        .logo{
+            width:100px
+        }
+
+        .logo img{
+            height:35px;
+        }
+
+        .lang{
+            width:70px;
+            display: flex;
+            justify-content: center;
+        }
+        
+    }
+}
+
+nav .menu{
+    position:fixed;
+    top:0;
+    height:100vh;
+    background:#FFFFFF;
+    z-index:9999;
+    width:350px;
+    right:-350px;
+    transition: right .5s;
+    display: flex;
+    flex-direction: column;
+
+
+    .x-menu{
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 5px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color:grey;
+    }
+
+    h3{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 17px;
+            flex:1;
+    }
+    ul{
+        flex:25;
+        list-style: none;
+        
+        h3{
+            
+            border-bottom: #D9D9D9 1px solid;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 17px;
+            font-weight: 100;
+        }
+       
+        .cat{
+            position: relative;
+            max-height:34px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+
+            .arrow-cat{
+                position: absolute;
+                left:5px;
+                top:0;
+                width:40px;
+                height:40px;
+                transform:rotate(180deg);
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform .5s;
+                color:#949494;
+            }
+            .arrow-cat-open{
+                transform:rotate(0deg);
+            }
+            ul{
+                position: relative;
+                padding-left:30px;
+                padding-right:30px;
+                padding-top:15px;
+                padding-bottom:15px;
+                list-style: none;
+                border-bottom: transparent 1px solid;
+                li{
+                    margin-bottom:10px;
+                    color:#CCCCCC;
+                    a{
+                        color:#CCCCCC;
+                    }
+                }
+            }
+            ul:after{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                border-bottom: #D9D9D9 1px solid;
+                height: 1px;
+            }
+        }
+    }
+
+    .social{
+        flex:2;
+        display:flex;
+        direction: ltr;
+        padding:0 20px 0 20px;
+        position: relative;
+        div{
+            flex:1;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-size:30px;
+            color:#949494;
+        }
+    }
+    .social::after{
+        position: absolute;
+        content:'';
+        width:100%;
+        bottom: 0;
+        left:0;
+        border-bottom: #D9D9D9 1px solid;
+    }
+
+    .credit{
+        flex:2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#949494;
+        direction: ltr;
+    }
+}
+
+nav .menu-open{
+    right:0px;
+}
+
+nav .shadow{
+    position:fixed;
+    top:0;
+    height:100vh;
+    width:100%;
+    background:rgba(0,0,0,0.6);
+    z-index:999;
+}
+
+nav .shadow-open{
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
+nav .shadow-close{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s, opacity .5s linear;
+}
+
+.cat-open{
+    max-height: 50% !important;
+}

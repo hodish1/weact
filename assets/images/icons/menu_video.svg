@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>video icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8,11 L5,11 L5,32 C5,33.6568542 6.34314575,35 8,35 L29,35 L29,32 L8,32 L8,11 Z M31,6 L13,6 C11.3431458,6 10,7.34314575 10,9 L10,27 C10,28.6568542 11.3431458,30 13,30 L31,30 C32.6568542,30 34,28.6568542 34,27 L34,9 C34,7.34314575 32.6568542,6 31,6 Z M20,24 L20,11 L29,17.5 L20,24 Z" id="path-1"></path>
+        <filter x="-20.7%" y="-20.7%" width="141.4%" height="141.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="video-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video-icon" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#B8E986" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
