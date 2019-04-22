@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 @import "main.css";
 @import "header.css";
+@import "recommended.css";
 
 /*Pages*/
 @import "home.css";
