@@ -13,6 +13,7 @@
 </div>
 
 <?php get_template_part("partials/recommended");?>
+<?php get_template_part("partials/articles");?>
 
 
 
