@@ -25,9 +25,22 @@
             </div>
             <!-- data -->
             <div class="additional-data-wrapper">
-                <div class="icon">1</div>
-                <div class="date">1</div>
-                <div class="timw">1</div>
+               <div class="first-row">
+                    <div class="date">
+                        3.3.19
+                    </div>
+                    <div class="time">
+                        12:50
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-podcast"></i>
+                    </div>
+               </div>
+               <div class="second-row">
+                   <div class="link">
+                      
+                   </div>
+               </div>
             </div>
         </div>
     </div>
@@ -55,12 +68,27 @@
                     <div class="tag">#משהו</div>
                 </div>
             </div>
+
             <!-- data -->
             <div class="additional-data-wrapper">
-                <div class="icon">1</div>
-                <div class="date">1</div>
-                <div class="timw">1</div>
+               <div class="first-row">
+                    <div class="date">
+                        3.3.19
+                    </div>
+                    <div class="time">
+                        12:50
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-podcast"></i>
+                    </div>
+               </div>
+               <div class="second-row">
+                   <div class="link">
+                       לצפיה >>
+                   </div>
+               </div>
             </div>
+
         </div>
     </div>
 

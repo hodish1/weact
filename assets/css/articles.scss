@@ -60,6 +60,41 @@
 
             .additional-data-wrapper{
                 flex:15%;
+                display:flex;
+                flex-direction: column;
+                padding-left:0;
+                .first-row{
+                    display:flex;
+                    flex:1;
+                    width:100%;
+                    align-items: center;
+                    padding-left:0;
+                    color:#20B2B2;
+                    font-size:20px;
+                    font-style: italic;
+
+                    div{
+                        flex:33.3%;
+                        justify-content: center;
+                        align-items: center;
+                        padding-left:0;
+                        text-align: left;
+                    }
+
+                }
+                .second-row{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex:5;
+                    padding-left:0;
+                    .link{
+                        color: #20B2B2;
+                        font-size: 22px;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
             }
         }
     }
