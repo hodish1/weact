@@ -12,6 +12,7 @@
 <body>
 
 <nav>
+
     <div class="top-nav">
         <div class="right">
             <img class="ham" onclick="openCloseMenu();" src="<?= get_template_directory_uri().'/assets/images/icons/menu.svg' ?>" >
@@ -65,7 +66,6 @@
     </div>
 
     <div class="menu">
-        
         <div class="x-menu" onclick="openCloseMenu();" >
              <i class="fas fa-times"></i>
         </div>
@@ -137,10 +137,8 @@
            </p>
         </div>
     </div>
-
-    <div id="shadow" class="shadow shadow-close">
-
-    </div>
+    <div id="shadow" class="shadow shadow-close"></div>
+    
 </nav>
 
 
