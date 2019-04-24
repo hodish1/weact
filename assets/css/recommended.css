@@ -12,6 +12,12 @@
   display: flex;
 }
 
+@media screen and (max-width: 720px) {
+  .reco-wrapper .filter {
+    display: none;
+  }
+}
+
 .reco-wrapper .filter .filter-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +89,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .reco-wrapper .reco-grid .sqr-post {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .reco-wrapper .reco-grid .sqr-post {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
 }
 
 .reco-wrapper .reco-grid .sqr-post .post-review {

@@ -34,6 +34,14 @@
   max-height: 200px;
 }
 
+@media screen and (max-width: 1200px) {
+  .articles-wrapper .article-wrapper {
+    max-height: -webkit-fit-content !important;
+    max-height: -moz-fit-content !important;
+    max-height: fit-content !important;
+  }
+}
+
 .articles-wrapper .article-wrapper .article-brief {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,11 +62,34 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 1200px) {
+  .articles-wrapper .article-wrapper .article-brief .img-wrapper {
+    -webkit-box-flex: 20%;
+        -ms-flex: 20%;
+            flex: 20%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .articles-wrapper .article-wrapper .article-brief .img-wrapper {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 .articles-wrapper .article-wrapper .article-brief .img-wrapper img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .articles-wrapper .article-wrapper .article-brief .img-wrapper img {
+    height: 250px;
+  }
 }
 
 .articles-wrapper .article-wrapper .article-brief .brief-content-wrapper {
@@ -73,6 +104,23 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .articles-wrapper .article-wrapper .article-brief .brief-content-wrapper {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .articles-wrapper .article-wrapper .article-brief .brief-content-wrapper {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 .articles-wrapper .article-wrapper .article-brief .brief-content-wrapper .title {
@@ -113,6 +161,23 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .articles-wrapper .article-wrapper .article-brief .additional-data-wrapper {
+    -webkit-box-flex: 10%;
+        -ms-flex: 10%;
+            flex: 10%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .articles-wrapper .article-wrapper .article-brief .additional-data-wrapper {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 .articles-wrapper .article-wrapper .article-brief .additional-data-wrapper .first-row {
