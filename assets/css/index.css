@@ -3,6 +3,7 @@
 @import "main.css";
 @import "header.css";
 @import "recommended.css";
+@import "articles.css";
 
 /*Pages*/
 @import "home.css";
