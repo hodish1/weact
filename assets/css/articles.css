@@ -55,10 +55,17 @@
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-wrap: wrap;
 }
 
 .articles-wrapper .article-wrapper .article-brief div {
   padding-left: 15px;
+}
+
+@media screen and (max-width: 720px) {
+  .articles-wrapper .article-wrapper .article-brief div {
+    padding-left: 0px;
+  }
 }
 
 .articles-wrapper .article-wrapper .article-brief .img-wrapper {
@@ -125,6 +132,7 @@
     -webkit-box-flex: 100%;
         -ms-flex: 100%;
             flex: 100%;
+    -webkit-flex: 100%;
     margin-bottom: 20px;
   }
 }

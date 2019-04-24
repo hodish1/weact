@@ -25,11 +25,16 @@
             display: flex;
             width:100%;
             flex-wrap: wrap;
+            -webkit-wrap:wrap;
             div{
                 padding-left:15px;
+                @media screen and (max-width:720px){
+                    padding-left: 0px;
+                }
             }
             .img-wrapper{
                 flex:15%;
+                overflow: hidden;
                 @media screen and (max-width:1200px){
                     flex:20%;
                 }
@@ -37,7 +42,6 @@
                     flex:100%;
                     margin-bottom:20px;
                 }
-                overflow: hidden;
                 img{
                     height:100%;
                     @media screen and (max-width:1200px){
@@ -55,6 +59,7 @@
                 }
                 @media screen and (max-width:720px){
                     flex:100%;
+                    -webkit-flex:100%;
                     margin-bottom:20px;
                 }
                 display:flex;
