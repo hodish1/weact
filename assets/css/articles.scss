@@ -6,6 +6,9 @@
     align-items: center;
     width: 100%;
     padding: 20px 40px;
+    @media screen and (max-width:720px){
+        padding: 10px 20px;
+    } 
     .article-wrapper{
         display: flex;
         background:white;
@@ -99,6 +102,9 @@
                         align-items: center;
                         padding-left:0;
                         text-align: left;
+                        @media screen and (max-width:720px){
+                            text-align: center;
+                        }
                     }
                 }
                 .second-row{

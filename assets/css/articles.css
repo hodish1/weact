@@ -17,6 +17,12 @@
   padding: 20px 40px;
 }
 
+@media screen and (max-width: 720px) {
+  .articles-wrapper {
+    padding: 10px 20px;
+  }
+}
+
 .articles-wrapper .article-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,6 +215,12 @@
           align-items: center;
   padding-left: 0;
   text-align: left;
+}
+
+@media screen and (max-width: 720px) {
+  .articles-wrapper .article-wrapper .article-brief .additional-data-wrapper .first-row div {
+    text-align: center;
+  }
 }
 
 .articles-wrapper .article-wrapper .article-brief .additional-data-wrapper .second-row {

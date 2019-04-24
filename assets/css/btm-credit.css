@@ -12,6 +12,12 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 720px) {
+  .btm-credit-wrapper {
+    padding: 20px;
+  }
+}
+
 .btm-credit-wrapper .btm-credit-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,8 +42,27 @@
           align-items: center;
 }
 
+@media screen and (max-width: 720px) {
+  .btm-credit-wrapper .btm-credit-inner .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 .btm-credit-wrapper .btm-credit-inner .links .link {
   margin-left: 40px;
+}
+
+@media screen and (max-width: 720px) {
+  .btm-credit-wrapper .btm-credit-inner .links .link {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .btm-credit-wrapper .btm-credit-inner .credit {
@@ -53,5 +78,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+  .btm-credit-wrapper .btm-credit-inner .credit {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
 }
 /*# sourceMappingURL=btm-credit.css.map */

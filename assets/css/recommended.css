@@ -6,6 +6,12 @@
   color: white;
 }
 
+@media screen and (max-width: 720px) {
+  .reco-wrapper {
+    padding: 10px 20px;
+  }
+}
+
 .reco-wrapper .filter {
   display: -webkit-box;
   display: -ms-flexbox;

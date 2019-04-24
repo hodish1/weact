@@ -61,9 +61,21 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 720px) {
+  .btm-menu-wrapper .darken .btm-links .links-col ul li {
+    margin-bottom: 5px;
+  }
+}
+
 .btm-menu-wrapper .darken .btm-links .links-col ul li a {
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+
+@media screen and (max-width: 720px) {
+  .btm-menu-wrapper .darken .btm-links .links-col ul li a {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=btm-menu.css.map */
