@@ -69,6 +69,12 @@
       align-self: center;
 }
 
+@media screen and (max-width: 720px) {
+  .top-nav .middle {
+    display: none;
+  }
+}
+
 .top-nav .middle .search {
   display: -webkit-box;
   display: -ms-flexbox;

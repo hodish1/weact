@@ -6,7 +6,9 @@
     align-items: center;
     width: 100%;
     padding: 20px 40px;
-
+    @media screen and (max-width:720px){
+        padding: 10px 20px;
+    } 
     .article-wrapper{
         display: flex;
         background:white;
@@ -16,29 +18,50 @@
         justify-content: center;
         align-items: center;
         max-height:200px;
-    
+        @media screen and (max-width:1200px){
+            max-height:fit-content !important;
+        } 
         .article-brief{
             display: flex;
             width:100%;
             flex-wrap: wrap;
+            -webkit-wrap:wrap;
             div{
                 padding-left:15px;
+                @media screen and (max-width:720px){
+                    padding-left: 0px;
+                }
             }
-
             .img-wrapper{
                 flex:15%;
                 overflow: hidden;
-                
+                @media screen and (max-width:1200px){
+                    flex:20%;
+                }
+                @media screen and (max-width:720px){
+                    flex:100%;
+                    margin-bottom:20px;
+                }
                 img{
                     height:100%;
+                    @media screen and (max-width:1200px){
+                        height:250px;
+                    }
                     width:100%;
                     object-fit: cover;
                 }
             }
-
             .brief-content-wrapper{
                 color:#474A53;
                 flex:70%;
+                @media screen and (max-width:1200px){
+                    flex:50%;
+                }
+                @media screen and (max-width:720px){
+                    flex:100%;
+                    -webkit-flex:100%;
+                    margin-bottom:20px;
+                }
                 display:flex;
                 flex-direction: column;
                 .title{
@@ -57,9 +80,15 @@
                     color:black;
                 }
             }
-
             .additional-data-wrapper{
                 flex:15%;
+                @media screen and (max-width:1200px){
+                    flex:10%;
+                }
+                @media screen and (max-width:720px){
+                    flex:100%;
+                    margin-bottom:20px;
+                }
                 display:flex;
                 flex-direction: column;
                 padding-left:0;
@@ -72,15 +101,16 @@
                     color:#20B2B2;
                     font-size:20px;
                     font-style: italic;
-
                     div{
                         flex:33.3%;
                         justify-content: center;
                         align-items: center;
                         padding-left:0;
                         text-align: left;
+                        @media screen and (max-width:720px){
+                            text-align: center;
+                        }
                     }
-
                 }
                 .second-row{
                     display: flex;

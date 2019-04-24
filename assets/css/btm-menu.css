@@ -1,0 +1,81 @@
+.btm-menu-wrapper {
+  width: 100%;
+  background: url(./../images/chemtrails.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btm-menu-wrapper .darken {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  padding-bottom: 150px;
+}
+
+.btm-menu-wrapper .darken .btm-plugins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  border: 1px solid white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.btm-menu-wrapper .darken .btm-links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.btm-menu-wrapper .darken .btm-links .links-col {
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btm-menu-wrapper .darken .btm-links .links-col ul {
+  list-style: none;
+}
+
+.btm-menu-wrapper .darken .btm-links .links-col ul li {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 720px) {
+  .btm-menu-wrapper .darken .btm-links .links-col ul li {
+    margin-bottom: 5px;
+  }
+}
+
+.btm-menu-wrapper .darken .btm-links .links-col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 720px) {
+  .btm-menu-wrapper .darken .btm-links .links-col ul li a {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=btm-menu.css.map */

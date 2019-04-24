@@ -42,6 +42,9 @@
     .middle{
         flex:3;
         display:flex;
+        @media screen and (max-width:720px){
+            display: none;
+        }
         align-self: center;
         .search{
             display: flex;
