@@ -7,17 +7,16 @@ function openCloseMenu(){
 }
 
 function openCloseCat(ele){
+    
+    var arrows = document.querySelectorAll('.arrow-cat');
+    arrows.forEach(function(arrow){
+        arrow.classList.remove('arrow-cat-open');
+    });
+    var cats = document.querySelectorAll('.cat');
+    cats.forEach(function(cat){
+        cat.classList.remove('cat-open');
+    });
 
-    // e.stopPropagation();
-
-    // var arrows = document.querySelectorAll('.arrow-cat');
-    // arrows.forEach(function(arrow){
-    //     arrow.classList.remove('arrow-cat-open');
-    // });
-    // var cats = document.querySelectorAll('.cat');
-    // cats.forEach(function(cat){
-    //     cat.classList.remove('cat-open');
-    // });
     //open specific category
     var cat = ele.parentNode;
     var arrow = cat.querySelector('.arrow-cat');
