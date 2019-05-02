@@ -2,7 +2,7 @@
         <div class="right">
             <img class="ham" onclick="openCloseMenu();" src="<?= get_template_directory_uri().'/assets/images/icons/menu.svg' ?>" >
             <div class="page">
-                <p>עמוד הבית</p>
+                <p><?php the_title(); ?></p>
             </div>
         </div>
         <div class="middle">
