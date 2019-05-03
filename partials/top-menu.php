@@ -1,6 +1,6 @@
 <div class="top-nav">
         <div class="right">
-            <img class="ham" onclick="openCloseMenu();" src="<?= get_template_directory_uri().'/assets/images/icons/menu.svg' ?>" >
+            <img class="ham" src="<?= get_template_directory_uri().'/assets/images/icons/menu.svg' ?>" >
             <div class="page">
                 <p><?php the_title(); ?></p>
             </div>
