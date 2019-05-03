@@ -5,9 +5,11 @@ var article_template = function article_template(article) {
 };
 
 function get_tag_by_id(tags, id) {
-    return tags.filter(function (tag) {
-        return tag.id = id;
+    var after = tags.filter(function (tag) {
+        return tag.id === id;
     });
+    // console.log(after);
+    return after;
 }
 
 var render = function render(urls, callback) {
@@ -27,9 +29,11 @@ var render = function render(urls, callback) {
             article.tags_template = '';
             article.tags.forEach(function (tag_id) {
                 // tag is not an object is actually int
+                // console.log(tag_id);
                 var tag = get_tag_by_id(tags, tag_id)[0];
                 var tag_template = '<div class="tag">#' + tag.name + '</div>';
                 article.tags_template += tag_template;
+                // console.log(tag.name);
             });
 
             var loader = document.querySelector('.articles-wrapper').querySelector('.loader-container');
@@ -43,5 +47,5 @@ render(['http://weact.s537.upress.link/wp-json/wp/v2/posts', 'http://weact.s537.
     var container = document.querySelector('.articles-wrapper .container');
     var template = article_template(article);
     container.innerHTML += template;
-    console.log(article);
+    // console.log(article);
 });

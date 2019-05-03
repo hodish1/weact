@@ -69,10 +69,12 @@
 }
 
 .articles-wrapper .article-wrapper .article-brief .img-wrapper {
+  display: block;
   -webkit-box-flex: 15%;
       -ms-flex: 15%;
           flex: 15%;
   overflow: hidden;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -102,6 +104,7 @@
 @media screen and (max-width: 1200px) {
   .articles-wrapper .article-wrapper .article-brief .img-wrapper img {
     height: 250px;
+    padding-left: 0px;
   }
 }
 

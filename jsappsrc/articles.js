@@ -41,7 +41,9 @@ const article_template = article => {
 }
 
 function get_tag_by_id(tags,id){
-    return tags.filter( tag => tag.id = id); 
+    var after= tags.filter( tag => tag.id === id) ;
+    // console.log(after);
+    return after;
 }
 
 const render = (urls,callback) => {
@@ -56,9 +58,11 @@ const render = (urls,callback) => {
         articles.forEach( article => {
             article.tags_template = '';
             article.tags.forEach(tag_id => {// tag is not an object is actually int
+                // console.log(tag_id);
                 let tag = get_tag_by_id(tags,tag_id)[0];
                 let tag_template = `<div class="tag">#${tag.name}</div>`;
                 article.tags_template += tag_template;
+                // console.log(tag.name);
             });
             
             const loader = document.querySelector('.articles-wrapper').querySelector('.loader-container');
@@ -74,7 +78,7 @@ render(['http://weact.s537.upress.link/wp-json/wp/v2/posts','http://weact.s537.u
     const container = document.querySelector('.articles-wrapper .container');
     const template = article_template(article);
     container.innerHTML+=template;
-    console.log(article);
+    // console.log(article);
 });
 
 
