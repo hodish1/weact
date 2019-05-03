@@ -63,7 +63,7 @@ const render = (urls,callback) => {
             
             const loader = document.querySelector('.articles-wrapper').querySelector('.loader-container');
             isLoader(loader,false);
-            callback(article);
+            callback(article); 
 
         });
     })
