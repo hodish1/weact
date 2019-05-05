@@ -1,5 +1,5 @@
 <div class="menu">
-<div class="x-menu" onclick="openCloseMenu();" >
+<div class="x-menu">
         <i class="fas fa-times"></i>
 </div>
 <h3>עמוד הבית</h3>

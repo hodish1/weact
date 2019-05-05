@@ -195,6 +195,12 @@ nav .menu {
           flex-direction: column;
 }
 
+@media screen and (max-width: 720px) {
+  nav .menu {
+    width: 245px !important;
+  }
+}
+
 nav .menu .x-menu {
   position: absolute;
   cursor: pointer;
@@ -337,6 +343,12 @@ nav .menu .social div {
           justify-content: center;
   font-size: 30px;
   color: #949494;
+}
+
+@media screen and (max-width: 720px) {
+  nav .menu .social div {
+    font-size: 20px;
+  }
 }
 
 nav .menu .social::after {

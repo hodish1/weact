@@ -1,0 +1,24 @@
+{
+  "name": "weact",
+  "version": "1.0.0",
+  "description": "WEACT  POWER TO THE PEOPLE",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildjs":"babel jsappsrc -d jsapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hodish1/weact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hodish1/weact/issues"
+  },
+  "homepage": "https://github.com/hodish1/weact#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
