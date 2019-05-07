@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="left">
-            <a class="logo" href="#"><img src="<?= get_template_directory_uri().'/assets/images/logo.png' ?>" ></a>
+            <a class="logo" href="<?php echo site_url(); ?>"><img src="<?= get_template_directory_uri().'/assets/images/logo.png' ?>" ></a>
             <!-- <div class="line"></div>
             <div class="lang">
                <p>HE | EN</p>
